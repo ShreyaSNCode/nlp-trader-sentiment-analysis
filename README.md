@@ -108,16 +108,15 @@ Note: Datasets are provided via external links due to size constraints.
 
 ## 📊 Sample Visualizations
 
-### 📊 Profit Distribution by Sentiment
-![Profit](images/profit_vs_sentiment.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
-### 📊 Trade Size by Sentiment
+![PnL Distribution](images/pnl_distribution.png)
+
+![Sentiment Distribution](images/sentiment_distribution.png)
+
 ![Trade Size](images/trade_size.png)
----
 
-## 📊 Confusion Matrix
-
-![Confusion Matrix](your-image-link-here)
+-----
 
 ### 🔍 Interpretation
 
