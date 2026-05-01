@@ -48,11 +48,12 @@ Note: Datasets are provided via external links due to size constraints.
 
 ---
 
-## 📊 Key Insights
 
-- Traders take **larger positions during Fear**, but profitability is lower → inefficient risk-taking  
-- **Extreme Greed shows highest profitability**, indicating strong market conditions  
-- Trade size has a **greater impact on profitability than sentiment alone**  
+## 🔍 Key Insights
+
+- Model shows moderate performance, indicating scope for improvement  
+- Lower recall for one class suggests difficulty in correctly identifying certain sentiments  
+- Performance can be improved with better feature engineering and advanced NLP models  
 
 ---
 
@@ -94,6 +95,35 @@ Note: Datasets are provided via external links due to size constraints.
 
 ![PnL Distribution](pnl_distribution.png)
 ![Trade Size](trade_size.png)
+
+---
+
+## 📊 Confusion Matrix
+
+![Confusion Matrix](your-image-link-here)
+
+### 🔍 Interpretation
+
+- The model correctly predicted **2787 instances of class 0** and **1751 instances of class 1**  
+- Misclassifications include **1300 false positives** and **1335 false negatives**  
+- The model shows relatively balanced performance across both classes  
+- However, there is still room for improvement in reducing misclassification errors  
+
+### 📈 Key Insight
+
+- The model performs slightly better at identifying class 0 compared to class 1  
+- Improving feature engineering and using advanced NLP models could enhance classification accuracy
+
+----
+
+## 📈 Results
+
+- Achieved **63.27% accuracy** using the classification model  
+- Model performed better on one class (precision: 0.68) compared to the other (0.57)  
+- Balanced performance with an overall F1-score of ~0.63
+
+------
+
 
 ## ▶️ How to Run
 
