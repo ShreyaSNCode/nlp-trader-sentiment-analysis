@@ -2,10 +2,29 @@
 
 Key finding: Trader performance is driven more by risk management than sentiment alone.
 
- # NLP-Based Trader Sentiment Analysis
+# 📈 NLP-Based Financial Sentiment Analysis for Market Insights
+
+----
+
+## 📌 Problem Statement
+
+Financial markets are heavily influenced by public sentiment from news and social media. 
+Understanding whether sentiment is bullish, bearish, or neutral can help traders and analysts make better decisions.
+
+This project aims to analyze textual data and classify sentiment to uncover market trends.
+
+---
 
 ## 📌 Objective
 Analyze how market sentiment (Fear/Greed) influences trader behavior, risk-taking, and profitability.
+
+---
+
+## 💼 Business Use Case
+
+- Helps investors understand market mood  
+- Supports data-driven trading decisions  
+- Identifies sentiment trends from financial text data
 
 ---
 
@@ -36,6 +55,17 @@ Note: Datasets are provided via external links due to size constraints.
 - Trade size has a **greater impact on profitability than sentiment alone**  
 
 ---
+
+## ⚙️ Approach
+
+1. Data Collection (news/social media)
+2. Data Cleaning (remove noise, stopwords)
+3. Text Preprocessing (tokenization, normalization)
+4. Feature Extraction (TF-IDF / Bag of Words)
+5. Model Training (Logistic Regression, Naive Bayes)
+6. Evaluation (Accuracy, Precision, Recall)
+
+----
 
 ## 🚀 Strategy Recommendations
 
