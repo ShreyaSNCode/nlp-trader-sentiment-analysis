@@ -5,7 +5,15 @@ Key finding: Trader performance is driven more by risk management than sentiment
 # 📈 NLP-Based Financial Sentiment Analysis for Market Insights
 
 ----
+## 🚀 Project Summary
 
+This project analyzes how market sentiment influences trading performance using real trading data.
+
+- Built classification model to predict sentiment  
+- Achieved ~63% accuracy using Logistic Regression  
+- Discovered that sentiment impacts win rate and profitability  
+
+-----
 ## 📌 Problem Statement
 
 Financial markets are heavily influenced by public sentiment from news and social media. 
@@ -48,7 +56,14 @@ Note: Datasets are provided via external links due to size constraints.
 
 ---
 
+## 🛠️ Tools & Technologies
 
+- Python (Pandas, NumPy)
+- Scikit-learn (ML models)
+- Matplotlib, Seaborn (visualization)
+- Jupyter Notebook
+
+---
 ## 🔍 Key Insights
 
 - Model shows moderate performance, indicating scope for improvement  
@@ -93,9 +108,11 @@ Note: Datasets are provided via external links due to size constraints.
 
 ## 📊 Sample Visualizations
 
-![PnL Distribution](pnl_distribution.png)
-![Trade Size](trade_size.png)
+### 📊 Profit Distribution by Sentiment
+![Profit](images/profit_vs_sentiment.png)
 
+### 📊 Trade Size by Sentiment
+![Trade Size](images/trade_size.png)
 ---
 
 ## 📊 Confusion Matrix
@@ -118,9 +135,9 @@ Note: Datasets are provided via external links due to size constraints.
 
 ## 📈 Results
 
-- Achieved **63.27% accuracy** using the classification model  
-- Model performed better on one class (precision: 0.68) compared to the other (0.57)  
-- Balanced performance with an overall F1-score of ~0.63
+- Achieved **63.27% accuracy** using Logistic Regression  
+- Model shows balanced performance with F1-score ~0.63  
+- Slightly better performance for one class compared to others  
 
 ------
 
@@ -131,5 +148,6 @@ Note: Datasets are provided via external links due to size constraints.
 2. Install requirements:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 
 
