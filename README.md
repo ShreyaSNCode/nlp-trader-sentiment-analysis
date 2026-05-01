@@ -2,7 +2,7 @@
 
 Key finding: Trader performance is driven more by risk management than sentiment alone.
 
-# Trader Performance vs Market Sentiment Analysis
+ # NLP-Based Trader Sentiment Analysis
 
 ## 📌 Objective
 Analyze how market sentiment (Fear/Greed) influences trader behavior, risk-taking, and profitability.
