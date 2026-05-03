@@ -7,6 +7,13 @@
 </p>
 
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NLP-Transformers-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ML-ScikitLearn-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data-Analysis-green?style=for-the-badge" />
+</p>
+
 🚀 End-to-end data science project combining trading data with market sentiment to derive actionable insights.
 
 Key finding: Trader performance is driven more by risk management than sentiment alone.
